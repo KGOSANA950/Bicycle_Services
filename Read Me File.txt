@@ -1,0 +1,209 @@
+====================================================================
+BICYCLE STORE SALES MANAGEMENT APPLICATION
+====================================================================
+Version: 1.0
+Developer: KGOSANA MR
+Student Number: 223388841
+Course: PGM216D - Programming 216
+Institution: Tshwane University of Technology
+====================================================================
+
+WHAT IS THIS APPLICATION?
+====================================================================
+This is a bicycle store management system that allows you to:
+- View all bicycles in stock
+- Add new bicycles to inventory
+- Edit existing bicycle information
+- Delete bicycles from inventory
+- Record sales transactions
+- Search for bicycles by ID, name, or price
+- Track stock levels automatically
+- View sales history
+
+====================================================================
+HOW TO START THE APPLICATION
+====================================================================
+1. Double-click on Bicycle_Services.exe
+2. The application will open to the main screen
+
+====================================================================
+FIRST TIME SETUP
+====================================================================
+1. Click "File" menu → Click "Open"
+2. This will load all bicycles from the database
+3. You will see a list of bicycles with their details
+4. The status bar at the bottom shows:
+   - Number of bikes loaded
+   - Current date and time
+
+====================================================================
+MAIN SCREEN FEATURES
+====================================================================
+The main screen has several sections:
+
+Left Side:
+- List of all bicycles showing ID, Name, Price, Stock
+
+Right Side:
+- Picture of selected bicycle
+
+Bottom:
+- Status bar with bike count and live clock
+
+Top:
+- Menu bar with File, Edit, View, Help options
+
+====================================================================
+HOW TO ADD A NEW BICYCLE
+====================================================================
+1. Click "Edit" menu
+2. Click "Add"
+3. Fill in the bicycle details:
+   - Bicycle Name
+   - Price
+   - Available Stock
+4. Click "Save"
+5. The new bicycle will appear in the list
+
+====================================================================
+HOW TO EDIT A BICYCLE
+====================================================================
+1. Click on a bicycle in the list to select it
+2. Click "Edit" menu → "Edit Bike"
+3. Change the information as needed
+4. Click "Update"
+5. The changes will be saved
+
+====================================================================
+HOW TO DELETE A BICYCLE
+====================================================================
+1. Click on a bicycle in the list to select it
+2. Click "Edit" menu → "Delete"
+3. Confirm you want to delete
+4. The bicycle will be removed
+
+Note: You cannot delete a bicycle that has sales records
+
+====================================================================
+HOW TO RECORD A SALE
+====================================================================
+1. Click "Sales" from the top menu or dropdown button
+2. Select a bicycle from the dropdown list
+3. Enter the following:
+   - Quantity Sold
+   - Cost of Sale (what you paid for the bike)
+   - Commission Percentage (%)
+4. Click "Calculate Profit" to see your profit
+5. Click "Save" to record the sale
+6. The stock will automatically decrease
+
+====================================================================
+HOW TO SEARCH FOR BICYCLES
+====================================================================
+Method 1 - Quick Search:
+1. Type in the search box at the top of main screen
+2. Click "Search" button
+3. Search results will appear
+
+Method 2 - Advanced Search:
+1. Click "View" menu → "Search"
+2. Select search type:
+   - Bicycle ID (enter number)
+   - Bicycle Name (enter name)
+   - Price (enter amount)
+3. Type your search term
+4. Click "Search"
+5. Results will show matching bicycles
+
+====================================================================
+HOW TO SORT BICYCLES
+====================================================================
+1. Click "View" menu → "Sort"
+2. Choose:
+   - Name → Ascending (A to Z)
+   - Name → Descending (Z to A)
+   - Price → Ascending (Low to High)
+   - Price → Descending (High to Low)
+3. The list will reorder automatically
+
+====================================================================
+HOW TO VIEW BICYCLE PICTURES
+====================================================================
+1. Click on any bicycle in the list
+2. The picture will appear in the picture box on the right
+
+Note: Pictures must be named as bikeId.png (e.g., 1.png, 2.png)
+and placed in the "images" folder
+
+====================================================================
+UNDERSTANDING THE STATUS BAR
+====================================================================
+The bottom status bar shows:
+- Left side: Number of bikes loaded
+- Right side: Current date and time (updates every second)
+
+Example: "22 bikes loaded | 2026-04-26 15:30:45"
+
+====================================================================
+KEYBOARD SHORTCUTS
+====================================================================
+- Ctrl + O : Open database
+- Ctrl + S : Save data
+- Ctrl + F : Search
+- F1 : Help
+- Alt + F4 : Exit
+
+====================================================================
+TROUBLESHOOTING
+====================================================================
+
+Problem: "No bikes loaded" message appears
+Solution: Click File → Open first to load the database
+
+Problem: Images don't appear
+Solution: Make sure images are in the "images" folder and named correctly
+
+Problem: Cannot delete a bicycle
+Solution: The bicycle has sales records. Delete sales first or keep it
+
+Problem: Database connection error
+Solution: Make sure SQL Server LocalDB is installed and running
+
+Problem: Cannot add sale
+Solution: You must select a bicycle first and enter all fields
+
+====================================================================
+SYSTEM REQUIREMENTS
+====================================================================
+- Windows 10 or Windows 11
+- 4GB RAM minimum (8GB recommended)
+- 500MB free disk space
+- SQL Server LocalDB 2016 or later
+- .NET Framework 4.8 or later
+
+====================================================================
+FILE LOCATIONS
+====================================================================
+Application: Bicycle_Services.exe
+Database: BicycleDB.mdf and BicycleDB.ldf
+Images: \images\ folder
+Data file: bike-store.txt
+
+====================================================================
+SUPPORT
+====================================================================
+If you need assistance:
+- Student: KGOSANA MR
+- Student Number: 223388841
+- Institution: Tshwane University of Technology
+- Module: PGM216D
+
+====================================================================
+VERSION HISTORY
+====================================================================
+Version 1.0 (April 2026)
+- Initial release
+- Complete bicycle management
+- Sales recording system
+- Search and sort features
+- Database integration
